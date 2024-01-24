@@ -785,8 +785,12 @@ p,
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus + .modal-form-input-icon {
+.modal-form-input:focus {
   border-color: var(--iris);
+}
+
+.modal-form-input:focus + .modal-form-input-icon {
+  fILL: var(--iris);
 }
 
 .modal-form-input-icon {
