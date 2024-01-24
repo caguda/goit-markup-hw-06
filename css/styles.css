@@ -22,9 +22,9 @@ img {
   --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --slate: #434455;
   --light-slate: #8e8f99;
-  --iris: #4D5AE5;
-  --navy-blue: #2E2F42;
-  --cloud: #F4F4FD;
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
 }
 
 .div {
@@ -790,7 +790,7 @@ p,
 }
 
 .modal-form-input:focus + .modal-form-input-icon {
-  fILL: var(--iris);
+  fill: var(--iris);
 }
 
 .modal-form-input-icon {
@@ -886,3 +886,60 @@ p,
 .modal-form-button:focus {
   background-color: var(--ocean);
   border: none;
+}
+
+/* HW6 Footer Form */
+
+.footer-form-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--WHITE);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--WHITE);
+}
+
+.footer-form-input::placeholder {
+  color: var(--WHITE);
+}
+
+.footer-form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--WHITE);
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-btn-icon {
+  margin-left: 16px;
+}
