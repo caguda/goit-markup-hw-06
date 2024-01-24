@@ -23,6 +23,7 @@ img {
   --slate: #434455;
   --light-slate: #8e8f99;
   --iris: #4D5AE5;
+  --cloud: #F4F4FD;
 }
 
 .div {
@@ -865,7 +866,7 @@ p,
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: var(--WHITE);
   cursor: pointer;
   background-color: var(--iris);
   border: none;
